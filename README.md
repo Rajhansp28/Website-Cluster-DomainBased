@@ -33,38 +33,22 @@ sudo nano virtualhosts.conf
 Add following content:
 
 ```bash
+
 <VirtualHost *:80>
-    ServerName web1.com
-    ServerAlias www.web1.com
+    ServerName web1.supermallwin.site
     DocumentRoot /var/www/web1
-    <Directory /var/www/web1>
-        Options Indexes FollowSymLinks MultiViews
-        AllowOverride None
-        Require all granted
-    </Directory>
 </VirtualHost>
 
 <VirtualHost *:80>
-    ServerName web2.com
-    ServerAlias www.web2.com
+    ServerName web2.supermallwin.site
     DocumentRoot /var/www/web2
-    <Directory /var/www/web2>
-        Options Indexes FollowSymLinks MultiViews
-        AllowOverride None
-        Require all granted
-    </Directory>
 </VirtualHost>
 
 <VirtualHost *:80>
-    ServerName web3.com
-    ServerAlias www.web3.com
+    ServerName web3.supermallwin.site
     DocumentRoot /var/www/web3
-    <Directory /var/www/web3>
-        Options Indexes FollowSymLinks MultiViews
-        AllowOverride None
-        Require all granted
-    </Directory>
 </VirtualHost>
+
 ```
 
 ### Step 5: Create directories for each website
