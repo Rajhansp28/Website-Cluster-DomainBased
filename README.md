@@ -17,7 +17,7 @@ sudo yum update -y
 ```
 ### Step 2: Install the HTTP server
 ```bash
-sudo yum install httpd
+sudo yum install httpd -y
 ```
 ### Step 3: Change to the Apache configuration directory
 ```bash
