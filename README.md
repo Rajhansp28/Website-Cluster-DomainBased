@@ -82,3 +82,13 @@ Create three separate A records, one for each website, pointing to the instance'
 
 
 ## That's it! 🎉 You now have three websites hosted on a single AWS instance.
+
+
+![image](https://github.com/user-attachments/assets/b52310f2-f40d-4c36-8750-d6647b3cb00a)
+
+![image](https://github.com/user-attachments/assets/ca259613-ff7d-4092-a7fd-4c7d14edc435)
+
+![image](https://github.com/user-attachments/assets/46b7567c-5ba3-4fca-9314-efdc2e746fdd)
+
+
+
